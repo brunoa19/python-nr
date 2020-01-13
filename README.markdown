@@ -1,10 +1,10 @@
-# tsuru-django-sample
+# shipa-django-sample
 
-This is the example project used in the guide ["Deploying Python applications in tsuru"](https://docs.tsuru.io/stable/using/python.html).
+This is the example project used to show CI tool  integration into Shipa
 
 ## Configuration
 
-Before deploying this app to tsuru, you need to add the host/domain name to `ALLOWED_HOSTS` configuration in `blog/settings.py`:
+Before deploying this app to Shipa, you need to add the host/domain name to `ALLOWED_HOSTS` configuration in `blog/settings.py`:
 
 ```
 ALLOWED_HOSTS = ['my-app.cloud.example.com', 'example.domain.net', 'lvh.me']
