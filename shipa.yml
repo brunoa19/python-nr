@@ -1,6 +1,6 @@
 hooks:
   build:
-    - sudo python manage.py collectstatic -c --noinput
-    - sudo python manage.py migrate
-    - sudo pip install newrelic
+    - python manage.py collectstatic -c --noinput
+    - python manage.py migrate
+    - pip install newrelic
     - newrelic-admin generate-config 191914f113133f57821d5e9561b399a5c3815f72 newrelic.ini
