@@ -26,7 +26,7 @@ SECRET_KEY = '-d=ok(f$5-av!1!dprap4fz$_q2zu*@r*^m7wsnugw2@p6lsla'
 DEBUG = True
 
 # Add here your app domain name
-ALLOWED_HOSTS = ['new-relic.34.70.140.183.nip.io', 'lvh.me']
+ALLOWED_HOSTS = ['django-nr-mc.35.223.10.34.nip.io', 'lvh.me']
 
 
 # Application definition
