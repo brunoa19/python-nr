@@ -1,5 +1,5 @@
 security:
-   disable-scan: true
+   disable-scan: false
    scan-platform-layers: true
 hooks:
   build:
