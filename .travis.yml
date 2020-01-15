@@ -8,4 +8,4 @@ jobs:
       script: 'pip install -r requirements.txt'
 
     - stage: deploy
-      script: 'pip install shipa-ci && shipa-ci --app=bruno-ci --server=$SHIPASERVER --email=$SHIPAEMAIL --password=$SHIPAPASSWORD --verbose'
+      script: 'pip install shipa-ci && shipa-ci --app=bruno-mc --server=$SHIPASERVER --email=$SHIPAEMAIL --password=$SHIPAPASSWORD --verbose'
