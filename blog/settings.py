@@ -26,7 +26,7 @@ SECRET_KEY = '-d=ok(f$5-av!1!dprap4fz$_q2zu*@r*^m7wsnugw2@p6lsla'
 DEBUG = True
 
 # Add here your app domain name
-ALLOWED_HOSTS = ['django-nr-mc.35.223.10.34.nip.io', 'lvh.me']
+ALLOWED_HOSTS = ['canary.130.211.228.189.nip.io', 'lvh.me']
 
 
 # Application definition
