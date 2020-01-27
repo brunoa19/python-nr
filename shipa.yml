@@ -5,5 +5,3 @@ hooks:
   build:
     - python manage.py collectstatic -c --noinput
     - python manage.py migrate
-    - pip install newrelic
-    - newrelic-admin generate-config 191914f113133f57821d5e9561b399a5c3815f72 newrelic.ini
