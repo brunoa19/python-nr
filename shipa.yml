@@ -1,6 +1,3 @@
-security:
-   disable-scan: false
-   scan-platform-layers: false
 hooks:
   build:
     - python manage.py collectstatic -c --noinput
