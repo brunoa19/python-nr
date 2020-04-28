@@ -4,8 +4,3 @@ hooks:
     - python manage.py migrate
     - pip install newrelic
     - newrelic-admin generate-config 6300eefb3c7c1eb7081f70c970ecaa02a73bNRAL newrelic.ini
-    - echo "license_key: 6300eefb3c7c1eb7081f70c970ecaa02a73bNRAL" | sudo tee -a /etc/newrelic-infra.yml
-    - curl https://download.newrelic.com/infrastructure_agent/gpg/newrelic-infra.gpg | sudo apt-key add -
-    - printf "deb [arch=amd64] http://download.newrelic.com/infrastructure_agent/linux/apt bionic main" | sudo tee -a /etc/apt/sources.list.d/newrelic-infra.list
-    - apt-get update
-    - apt-get install newrelic-infra -y
