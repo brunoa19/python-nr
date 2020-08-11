@@ -26,7 +26,7 @@ SECRET_KEY = '-d=ok(f$5-av!1!dprap4fz$_q2zu*@r*^m7wsnugw2@p6lsla'
 DEBUG = True
 
 # Add here your app domain name
-ALLOWED_HOSTS = ['newrelic.35.203.149.2.nip.io', 'lvh.me']
+ALLOWED_HOSTS = ['codeship.104.197.124.168.nip.io', 'lvh.me']
 
 
 # Application definition
